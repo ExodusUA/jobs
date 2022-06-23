@@ -821,7 +821,7 @@ footer p {
     box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.15);
     border-radius: 15px;
     background: white;
-    padding: 12px 35px;
+    padding: 15px 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -835,7 +835,7 @@ footer p {
 
 .shoppingItemTitle {
     font-weight: 700;
-    font-size: 28px;
+    font-size: 26px;
     line-height: 35px;
     text-transform: uppercase;
     color: #0375FA;
@@ -847,6 +847,181 @@ footer p {
     line-height: 22px;
     color: #92869B;
     margin-top: 5px;
+}
+
+.shoppingItemDesc {
+    font-weight: 500;
+}
+
+.shoppingList {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* CHECKOUT */
+
+.checkout {
+    padding-bottom: 50px;
+}
+
+.checkoutCompany p {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 141.5%;
+    color: #0375FA;
+    margin-bottom: 20px;
+}
+
+.checkoutCompany div {
+    width: 640px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.checkoutInput {
+    border-radius: 5px;
+    height: 40px;
+    color: #92869B;
+    border: 1px solid #92869B;
+    padding-left: 10px;
+    outline: none;
+}
+
+.checkoutInput:focus {
+    color: #0375FA;
+    border: 1px solid #0375FA;
+}
+
+.checkoutInput:focus::placeholder {
+    color: #0375FA;
+}
+
+.checkoutPayment {
+    display: block !important;
+    margin-top: 40px;
+}
+
+.paymentMethod {
+    display: flex !important;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.paymentMethod label {
+    color: #92869B;
+    font-weight: 800;
+}
+
+.labelChecked {
+    color: #0375FA !important;
+}
+
+.checkoutButton {
+    margin-top: 30px;
+    padding: 8px 47px;
+    font-size: 18px;
+}
+
+.checkoutInfo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.checkoutSelected {
+    width: 320px;
+}
+
+.checkoutSelected>p {
+    font-weight: 800;
+    font-size: 20px;
+    color: #0375FA;
+    margin-bottom: 20px;
+}
+
+.checkoutItem div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkoutItem div p {
+    font-size: 16px;
+}
+
+.checkoutItemDesc {
+    font-weight: 500;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: #92869B !important;
+}
+
+.checkoutItemDesc span {
+    color: #92869B;
+}
+
+.checkoutItemDesc span {
+    font-weight: 800;
+}
+
+.checkoutItem>div>p {
+    font-weight: 800;
+    color: #0375FA;
+    margin-bottom: 5px;
+}
+
+.checkoutItem {
+    margin-bottom: 20px;
+}
+
+
+.checkoutSelectedButton {
+    width: 100%;
+    height: 45px;
+    background: #0375FA;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.checkoutSelectedButton:hover {
+    border-bottom: 2px solid #0375FA;
+    background: transparent;
+    color: #0375FA;
+}
+
+.checkoutLine {
+    height: 1px;
+    background: #92869B;
+    border: none;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.checkoutBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkoutBottom p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 141.5%;
+    color: #0375FA;
+}
+
+.checkoutTotal {
+
+    font-weight: 700 !important;
+    font-size: 16px;
+    line-height: 141.5%;
+    color: #92869B !important;
 }
 
 /* MEDIA */
@@ -862,9 +1037,27 @@ footer p {
     }
 }
 
+@media (max-width: 1100px) {
+    .checkoutInfo {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .checkoutSelected {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .checkoutCompany {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .checkoutCompany div {
+        width: 100%;
+    }
+}
+
 @media (max-width: 1024px) {
-
-
     .header {
         height: 70vh;
     }
@@ -998,6 +1191,15 @@ footer p {
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
     }
+
+    .shoppingList {
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .header {
+        padding-bottom: 25px;
+    }
 }
 
 @media (max-width: 550px) {
@@ -1044,6 +1246,10 @@ footer p {
 
     .blockText {
         width: 100%;
+    }
+    .checkoutCompany div {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
     }
 }
 
