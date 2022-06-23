@@ -4,10 +4,10 @@
     font-family: 'Gilroy';
     src: url('Gilroy-Regular.eot');
     src: local('Gilroy-Medium'), local('Gilroy-Medium'),
-        url('style/fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
-        url('style/fonts/Gilroy-Medium.woff2') format('woff2'),
-        url('style/fonts/Gilroy-Medium.woff') format('woff'),
-        url('style/fonts/Gilroy-Medium.ttf') format('truetype');
+        url('../style/fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../style/fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('../style/fonts/Gilroy-Medium.woff') format('woff'),
+        url('../style/fonts/Gilroy-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
@@ -16,10 +16,10 @@
     font-family: 'Gilroy';
     src: url('Gilroy-Bold.eot');
     src: local('Gilroy-Bold'), local('Gilroy-Bold'),
-        url('style/fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
-        url('style/fonts/Gilroy-Bold.woff2') format('woff2'),
-        url('style/fonts/Gilroy-Bold.woff') format('woff'),
-        url('style/fonts/Gilroy-Bold.ttf') format('truetype');
+        url('../style/fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../style/fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../style/fonts/Gilroy-Bold.woff') format('woff'),
+        url('../style/fonts/Gilroy-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
@@ -28,13 +28,25 @@
     font-family: 'Gilroy';
     src: url('Gilroy-Black.eot');
     src: local('Gilroy-Black'), local('Gilroy-Black'),
-        url('style/fonts/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
-        url('style/fonts/Gilroy-Black.woff2') format('woff2'),
-        url('style/fonts/Gilroy-Black.woff') format('woff'),
-        url('style/fonts/Gilroy-Black.ttf') format('truetype');
+        url('../style/fonts/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+        url('../style/fonts/Gilroy-Black.woff2') format('woff2'),
+        url('../style/fonts/Gilroy-Black.woff') format('woff'),
+        url('../style/fonts/Gilroy-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
+
+/* CART & LANGUAGE HIDE */
+
+.cart {
+    display: none;
+}
+
+.languageList {
+    display: none;
+}
+
+
 
 * {
     box-sizing: border-box;
@@ -114,6 +126,32 @@ button {
 .language {
     margin-left: 50px;
     cursor: pointer;
+    position: relative;
+}
+
+.languageList {
+    top: 30px;
+    left: -20px;
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    padding-top: 10px;
+    background: white;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+}
+
+.languageListItem {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.languageListItem img {
+    margin-right: 12px;
+    width: 24px;
+    height: 14px;
 }
 
 .navbarLink {
@@ -555,12 +593,12 @@ footer p {
     font-weight: 800 !important;
     font-size: 24px !important;
     line-height: 40px !important;
-    color: #0375FA !important;
+    color: #92869B !important;
     margin-top: 10px;
 }
 
 .cartTotal span {
-    color: #0375FA !important;
+    color: #92869B !important;
 }
 
 .buttonBusket {
@@ -584,6 +622,7 @@ footer p {
     background: transparent;
     width: 50%;
     cursor: pointer;
+    color: #0375FA;
 }
 
 .cartButtons {
@@ -610,13 +649,10 @@ footer p {
     box-sizing: border-box;
 }
 
-.pageHeader {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
 
-.cart {
-    display: none;
+.cartItemPrice span {
+    font-weight: 900;
+    color: #92869B;
 }
 
 .pageHeader h1 {
@@ -764,6 +800,53 @@ footer p {
 
 .packPagination i:hover {
     color: #3F2B4F;
+}
+
+.pageHeader {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cartItemPrice {
+    font-weight: 500 !important;
+}
+
+/* SHOPPING PAGE */
+
+.shoppingList {
+    padding-bottom: 50px;
+}
+
+.shoppingItem {
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    background: white;
+    padding: 12px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shoppingItem i {
+    font-size: 24px;
+    color: #0375FA;
+}
+
+.shoppingItemTitle {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #0375FA;
+}
+
+.shoppingItemDesc {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #92869B;
+    margin-top: 5px;
+
 }
 
 @media (max-width: 1280px) {
@@ -920,6 +1003,7 @@ footer p {
         display: block;
         text-align: center;
     }
+
     .footerWrapper img {
         margin-bottom: 20px;
     }
