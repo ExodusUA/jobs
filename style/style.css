@@ -830,6 +830,7 @@ footer p {
 .shoppingItem i {
     font-size: 24px;
     color: #0375FA;
+    cursor: pointer;
 }
 
 .shoppingItemTitle {
@@ -846,8 +847,9 @@ footer p {
     line-height: 22px;
     color: #92869B;
     margin-top: 5px;
-
 }
+
+/* MEDIA */
 
 @media (max-width: 1280px) {
     .packList {
