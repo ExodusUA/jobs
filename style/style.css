@@ -1,0 +1,801 @@
+/* FONTS & SETTINGS */
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Regular.eot');
+    src: local('Gilroy-Medium'), local('Gilroy-Medium'),
+        url('/style/fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('/style/fonts/Gilroy-Medium.woff') format('woff'),
+        url('/style/fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Bold.eot');
+    src: local('Gilroy-Bold'), local('Gilroy-Bold'),
+        url('/style/fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('/style/fonts/Gilroy-Bold.woff') format('woff'),
+        url('/style/fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Black.eot');
+    src: local('Gilroy-Black'), local('Gilroy-Black'),
+        url('/style/fonts/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/Gilroy-Black.woff2') format('woff2'),
+        url('/style/fonts/Gilroy-Black.woff') format('woff'),
+        url('/style/fonts/Gilroy-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    color: #3F2B4F;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+:root {
+    --BlueColor: #0375FA;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+    height: 100vh;
+    background: #F4F9FF;
+}
+
+.navbar {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #F4F9FF;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logotype {
+    width: 150px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3F2B4F;
+}
+
+.languageFlag {
+    margin-right: 12px;
+}
+
+.language p {
+    margin-right: 12px;
+}
+
+.navbarList {
+    display: flex;
+}
+
+.navbarListLeft {
+    display: flex;
+}
+
+.language {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.navbarLink {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3F2B4F;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+    padding-bottom: 5px;
+}
+
+.navbarLink:hover {
+    border-bottom: 2px solid #0375FA;
+    color: #0375FA;
+}
+
+.navbarLinks {
+    position: relative;
+}
+
+.navbarLinks li {
+    margin-right: 30px;
+}
+
+.navbarLinkCart a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbarLinkCart p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0375FA;
+    margin-right: 10px;
+}
+
+.navbarLinkCart i {
+    color: #0375FA;
+}
+
+.headerContent h1 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 71px;
+    color: #0375FA;
+    width: 600px;
+}
+
+.headerContentLeft {
+    width: 640px;
+}
+
+.headerContent {
+    margin-top: 100px;
+}
+
+.headerContent p {
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.blueButton {
+    padding: 16px 50px;
+    background: #0375FA;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.blueButton:hover {
+    background: transparent;
+    color: #0375FA;
+    border-bottom: 2px solid #0375FA;
+}
+
+.buttonHeader {
+    margin-top: 30px;
+}
+
+.headerImage {
+    width: 40%;
+    max-width: 440px;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* INFO */
+
+.info {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.info h1 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #0375FA;
+}
+
+.infoContent {
+    margin-top: 70px;
+    display: grid;
+    gap: 70px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.infoItem {
+    height: 300px;
+    box-shadow: 0px 0px 29px rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+    padding: 30px;
+    position: relative;
+}
+
+.infoItemTitle {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #0375FA;
+}
+
+.infoTitleDesc {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #3F2B4F;
+    margin-top: 10px;
+}
+
+.infoItemNumber {
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    color: rgba(63, 43, 79, 0.1);
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 134px;
+}
+
+.blueSection {
+    background: #0375FA;
+}
+
+.blueSection p {
+    color: white;
+}
+
+.blueSection h1 {
+    color: white;
+}
+
+.blockSection {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.blockText {
+    max-width: 614px;
+    width: 50%;
+}
+
+.blockText p {
+    margin-top: 30px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #DDDDDD;
+}
+
+.blockText h1 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.whiteButton {
+    background: white;
+    color: #0375FA;
+    font-size: 18px;
+}
+
+.whiteButton:hover {
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.blockText button {
+    margin-top: 40px;
+}
+
+.blockWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blockImage {
+    width: 485px;
+    height: 330px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.networkBuble {
+    position: absolute;
+    left: -50px;
+    bottom: 50px;
+    z-index: 0;
+}
+
+.blockPicture {
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.whiteSection p {
+    color: rgba(63, 43, 79, 0.78);
+}
+
+.whiteSection h1 {
+    color: #0375FA;
+}
+
+.blockText .blueButton {
+    font-size: 18px;
+}
+
+.revert {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* AUDIENCE */
+
+.audienceBuble {
+    position: absolute;
+    right: -50px;
+    top: 60px;
+}
+
+/* STATS */
+
+.statsContainer {
+    max-width: 100%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.stats {
+    height: 450px;
+    background-image: url(../images/statsImage.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.statsMask {
+    width: 100%;
+    height: 100%;
+    background: rgba(3, 117, 250, 0.57);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.statsContainer {
+    position: relative;
+    z-index: 99;
+}
+
+.statsContainer {
+    text-align: center;
+}
+
+.statsItems {
+    margin-top: 60px;
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statsItem i {
+    font-size: 76px;
+    color: white;
+}
+
+.statsItemTitle {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
+.statsItemDesc {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.stats h1 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 82px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.recruitmentBuble {
+    position: absolute;
+    right: -100px;
+    top: 40px;
+}
+
+/* HIRING */
+
+.hiringBuble {
+    position: absolute;
+    right: -80px;
+    top: 60px;
+}
+
+.footerWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #CBE3FE;
+}
+
+footer p {
+    color: #3F2B4F;
+}
+
+/* CART */
+
+.cart {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    height: auto;
+    padding: 20px;
+    width: 350px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+.navbarLinkCart {
+    position: relative;
+}
+
+.cartItemTitle {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px !important;
+    line-height: 30px;
+    color: #0375FA;
+    margin-bottom: 5px;
+
+}
+
+
+.cartItemPrice {
+    font-weight: 800 !important;
+    font-size: 14px !important;
+    line-height: 22px;
+    color: #92869B !important;
+}
+
+.cartItem {
+    border-bottom: 2px solid #CBE3FE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartItemDelete {
+    cursor: pointer;
+}
+
+.cartTotal p {
+    font-weight: 800 !important;
+    font-size: 24px !important;
+    line-height: 40px !important;
+    color: #0375FA !important;
+    margin-top: 10px;
+}
+
+.cartTotal span {
+    color: #0375FA !important;
+}
+
+.buttonBusket {
+    width: 50%;
+    background: #0375FA;
+    color: white;
+    height: 40px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.buttonBusket:hover {
+    border-bottom: 2px solid #0375FA;
+    background: white;
+    color: #0375FA;
+}
+
+.whiteBusket {
+    background: transparent;
+    width: 50%;
+    cursor: pointer;
+}
+
+.cartButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.cartTop {
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    left: 50%;
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+    .header {
+        height: 70vh;
+    }
+
+    .infoContent {
+        gap: 30px;
+    }
+
+    .blockImage {
+        width: 385px;
+        height: 270px;
+    }
+
+    .statsContainer {
+        width: 70%;
+    }
+
+    .audienceBuble {
+        width: 70%;
+    }
+
+    .recruitmentBuble {
+        width: 70%;
+        right: -40px;
+    }
+
+    .networkBuble {
+        width: 70%;
+    }
+
+    .hiringBuble {
+        width: 70%;
+        right: -40px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .navbarLinks {
+        display: none !important;
+    }
+
+    .headerContent {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .headerImage {
+        width: 100%;
+    }
+
+    .header {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .headerContent {
+        margin-top: 50px;
+    }
+
+    .headerImage {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .infoContent {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blockWrapper {
+        display: block;
+    }
+
+    .blockText {
+        width: 90%;
+    }
+
+    .blockSection {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .blockImage {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .recruitmentBuble {
+        top: 0px;
+    }
+
+    .hiringBuble {
+        top: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .headerContentLeft {
+        width: 100%;
+    }
+
+    .info {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .infoContent {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blockText h1 {
+        font-size: 32px;
+    }
+
+    .stats h1 {
+        font-size: 46px;
+    }
+
+    .statsContainer {
+        width: 90%;
+    }
+}
+
+@media (max-width: 490px) {
+    .logotype {
+        width: 120px;
+    }
+
+    .language {
+        margin-left: 20px;
+    }
+
+    .headerImage {
+        width: 80%;
+    }
+
+    .footerWrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .footerWrapper img {
+        margin-bottom: 20px;
+    }
+
+    .headerContent h1 {
+        font-size: 52px;
+        width: 100%;
+    }
+
+    .info h1 {
+        font-size: 30px;
+    }
+
+    .blockText {
+        width: 100%;
+    }
+}
+
+@media (max-width: 430px) {
+    .statsItem i {
+        font-size: 40px;
+    }
+    .statsItemTitle {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 414px) {
+    .hiringBuble {
+        display: none;
+    }
+    .networkBuble {
+        display: none;
+    }
+    .recruitmentBuble {
+        display: none;
+    }
+    .audienceBuble {
+        display: none;
+    }
+    .networkBuble {
+        display: none;
+    }
+    .stats h1 {
+        font-size: 36px;
+    }
+    .headerContent h1 {
+        font-size: 42px;
+        width: 100%;
+    }
+}
