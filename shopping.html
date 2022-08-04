@@ -61,39 +61,13 @@
                             <div class="cart">
                                 <img class="cartTop" src="images/cartTop.svg" alt="cart Top">
                                 <div class="cartItems">
-                                    <div class="cartItem">
-                                        <div>
-                                            <p class="cartItemTitle">Package 1</p>
-                                            <p class="cartItemPrice">12 months - €30 - <span>20% discount</span></p>
-                                        </div>
-                                        <div class="cartItemDelete">
-                                            <i class="fa-solid fa-circle-xmark"></i>
-                                        </div>
+                                    <div class="cartEmpty">
+                                        <p class="cartEmptyTitle">No items.</p>
+                                        <p class="cartEmptyDesc">You have not added any products to the cart yet!</p>
                                     </div>
-                                    <div class="cartItem">
-                                        <div>
-                                            <p class="cartItemTitle">Package 1</p>
-                                            <p class="cartItemPrice">12 months - €30 - <span>20% discount</span></p>
-                                        </div>
-                                        <div class="cartItemDelete">
-                                            <i class="fa-solid fa-circle-xmark"></i>
-                                        </div>
-                                    </div>
-                                    <div class="cartItem">
-                                        <div>
-                                            <p class="cartItemTitle">Package 1</p>
-                                            <p class="cartItemPrice">12 months - €30 - <span>20% discount</span></p>
-                                        </div>
-                                        <div class="cartItemDelete">
-                                            <i class="fa-solid fa-circle-xmark"></i>
-                                        </div>
-                                    </div>
-                                    <div class="cartTotal">
-                                        <p>Total: <span>€135</span></p>
-                                    </div>
+                                    <hr class="cartEmptyLine">
                                     <div class="cartButtons">
-                                        <button class="buttonBusket">Complete order</button>
-                                        <button class="whiteBusket">View all your items</button>
+                                        <button class="buttonBusket">Search for Packages</button>
                                     </div>
                                 </div>
                             </div>
@@ -117,68 +91,230 @@
     <section class="shopping">
         <div class="container">
             <div class="shoppingList">
-                <div class="shoppingItem">
-                    <div>
-                        <p class="shoppingItemTitle">Package 1</p>
-                        <p class="shoppingItemDesc">2 months € 30</p>
+                <div class="shoppingItem shoppingItemOpen">
+                    <div class="shoppingItemVisible">
+                        <div>
+                            <p class="shoppingItemTitle">Package 1</p>
+                            <p class="shoppingItemDesc">2 months € 30</p>
+                        </div>
+                        <i class="fa-solid fa-circle-xmark"></i>
                     </div>
-                    <i class="fa-solid fa-circle-xmark"></i>
+                    <div class="shoppingItemHidden">
+                        <p class="packIncludedTitle">Included in package</p>
+                        <div class="packIncludedItems">
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                            <a target="_blank" href="https://www.defijobsite.com/">defijobsite.com</a>
+                            <a target="_blank" href="https://www.flutterjobsite.com/">flutterjobsite.com</a>
+                            <a target="_blank" href="https://www.nftjobsite.com/">nftjobsite.com</a>
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                        </div>
+                        <p class="packDescription">
+                            This package is related to IT jobs if you want to hire php developer and javascript
+                            developers.
+                            The packages is targeting audience for the Netherlands
+                        </p>
+                    </div>
+                    <p class="shoppingItemClick">Click to <span>show</span> additional information ></p>
                 </div>
                 <div class="shoppingItem">
-                    <div>
-                        <p class="shoppingItemTitle">Package 1</p>
-                        <p class="shoppingItemDesc">2 months € 30</p>
+                    <div class="shoppingItemVisible">
+                        <div>
+                            <p class="shoppingItemTitle">Package 1</p>
+                            <p class="shoppingItemDesc">2 months € 30</p>
+                        </div>
+                        <i class="fa-solid fa-circle-xmark"></i>
                     </div>
-                    <i class="fa-solid fa-circle-xmark"></i>
+                    <div class="shoppingItemHidden">
+                        <p class="packIncludedTitle">Included in package</p>
+                        <div class="packIncludedItems">
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                            <a target="_blank" href="https://www.defijobsite.com/">defijobsite.com</a>
+                            <a target="_blank" href="https://www.flutterjobsite.com/">flutterjobsite.com</a>
+                            <a target="_blank" href="https://www.nftjobsite.com/">nftjobsite.com</a>
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                        </div>
+                        <p class="packDescription">
+                            This package is related to IT jobs if you want to hire php developer and javascript
+                            developers.
+                            The packages is targeting audience for the Netherlands
+                        </p>
+                    </div>
+                    <p class="shoppingItemClick">Click to <span>show</span> additional information ></p>
                 </div>
                 <div class="shoppingItem">
-                    <div>
-                        <p class="shoppingItemTitle">Package 1</p>
-                        <p class="shoppingItemDesc">2 months € 30</p>
+                    <div class="shoppingItemVisible">
+                        <div>
+                            <p class="shoppingItemTitle">Package 1</p>
+                            <p class="shoppingItemDesc">2 months € 30</p>
+                        </div>
+                        <i class="fa-solid fa-circle-xmark"></i>
                     </div>
-                    <i class="fa-solid fa-circle-xmark"></i>
+                    <div class="shoppingItemHidden">
+                        <p class="packIncludedTitle">Included in package</p>
+                        <div class="packIncludedItems">
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                            <a target="_blank" href="https://www.defijobsite.com/">defijobsite.com</a>
+                            <a target="_blank" href="https://www.flutterjobsite.com/">flutterjobsite.com</a>
+                            <a target="_blank" href="https://www.nftjobsite.com/">nftjobsite.com</a>
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                        </div>
+                        <p class="packDescription">
+                            This package is related to IT jobs if you want to hire php developer and javascript
+                            developers.
+                            The packages is targeting audience for the Netherlands
+                        </p>
+                    </div>
+                    <p class="shoppingItemClick">Click to <span>show</span> additional information ></p>
                 </div>
                 <div class="shoppingItem">
-                    <div>
-                        <p class="shoppingItemTitle">Package 1</p>
-                        <p class="shoppingItemDesc">2 months € 30</p>
+                    <div class="shoppingItemVisible">
+                        <div>
+                            <p class="shoppingItemTitle">Package 1</p>
+                            <p class="shoppingItemDesc">2 months € 30</p>
+                        </div>
+                        <i class="fa-solid fa-circle-xmark"></i>
                     </div>
-                    <i class="fa-solid fa-circle-xmark"></i>
+                    <div class="shoppingItemHidden">
+                        <p class="packIncludedTitle">Included in package</p>
+                        <div class="packIncludedItems">
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                            <a target="_blank" href="https://www.defijobsite.com/">defijobsite.com</a>
+                            <a target="_blank" href="https://www.flutterjobsite.com/">flutterjobsite.com</a>
+                            <a target="_blank" href="https://www.nftjobsite.com/">nftjobsite.com</a>
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                        </div>
+                        <p class="packDescription">
+                            This package is related to IT jobs if you want to hire php developer and javascript
+                            developers.
+                            The packages is targeting audience for the Netherlands
+                        </p>
+                    </div>
+                    <p class="shoppingItemClick">Click to <span>show</span> additional information ></p>
                 </div>
                 <div class="shoppingItem">
-                    <div>
-                        <p class="shoppingItemTitle">Package 1</p>
-                        <p class="shoppingItemDesc">2 months € 30</p>
+                    <div class="shoppingItemVisible">
+                        <div>
+                            <p class="shoppingItemTitle">Package 1</p>
+                            <p class="shoppingItemDesc">2 months € 30</p>
+                        </div>
+                        <i class="fa-solid fa-circle-xmark"></i>
                     </div>
-                    <i class="fa-solid fa-circle-xmark"></i>
+                    <div class="shoppingItemHidden">
+                        <p class="packIncludedTitle">Included in package</p>
+                        <div class="packIncludedItems">
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                            <a target="_blank" href="https://www.defijobsite.com/">defijobsite.com</a>
+                            <a target="_blank" href="https://www.flutterjobsite.com/">flutterjobsite.com</a>
+                            <a target="_blank" href="https://www.nftjobsite.com/">nftjobsite.com</a>
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                        </div>
+                        <p class="packDescription">
+                            This package is related to IT jobs if you want to hire php developer and javascript
+                            developers.
+                            The packages is targeting audience for the Netherlands
+                        </p>
+                    </div>
+                    <p class="shoppingItemClick">Click to <span>show</span> additional information ></p>
                 </div>
                 <div class="shoppingItem">
-                    <div>
-                        <p class="shoppingItemTitle">Package 1</p>
-                        <p class="shoppingItemDesc">2 months € 30</p>
+                    <div class="shoppingItemVisible">
+                        <div>
+                            <p class="shoppingItemTitle">Package 1</p>
+                            <p class="shoppingItemDesc">2 months € 30</p>
+                        </div>
+                        <i class="fa-solid fa-circle-xmark"></i>
                     </div>
-                    <i class="fa-solid fa-circle-xmark"></i>
+                    <div class="shoppingItemHidden">
+                        <p class="packIncludedTitle">Included in package</p>
+                        <div class="packIncludedItems">
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                            <a target="_blank" href="https://www.defijobsite.com/">defijobsite.com</a>
+                            <a target="_blank" href="https://www.flutterjobsite.com/">flutterjobsite.com</a>
+                            <a target="_blank" href="https://www.nftjobsite.com/">nftjobsite.com</a>
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                        </div>
+                        <p class="packDescription">
+                            This package is related to IT jobs if you want to hire php developer and javascript
+                            developers.
+                            The packages is targeting audience for the Netherlands
+                        </p>
+                    </div>
+                    <p class="shoppingItemClick">Click to <span>show</span> additional information ></p>
                 </div>
                 <div class="shoppingItem">
-                    <div>
-                        <p class="shoppingItemTitle">Package 1</p>
-                        <p class="shoppingItemDesc">2 months € 30</p>
+                    <div class="shoppingItemVisible">
+                        <div>
+                            <p class="shoppingItemTitle">Package 1</p>
+                            <p class="shoppingItemDesc">2 months € 30</p>
+                        </div>
+                        <i class="fa-solid fa-circle-xmark"></i>
                     </div>
-                    <i class="fa-solid fa-circle-xmark"></i>
+                    <div class="shoppingItemHidden">
+                        <p class="packIncludedTitle">Included in package</p>
+                        <div class="packIncludedItems">
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                            <a target="_blank" href="https://www.defijobsite.com/">defijobsite.com</a>
+                            <a target="_blank" href="https://www.flutterjobsite.com/">flutterjobsite.com</a>
+                            <a target="_blank" href="https://www.nftjobsite.com/">nftjobsite.com</a>
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                        </div>
+                        <p class="packDescription">
+                            This package is related to IT jobs if you want to hire php developer and javascript
+                            developers.
+                            The packages is targeting audience for the Netherlands
+                        </p>
+                    </div>
+                    <p class="shoppingItemClick">Click to <span>show</span> additional information ></p>
                 </div>
                 <div class="shoppingItem">
-                    <div>
-                        <p class="shoppingItemTitle">Package 1</p>
-                        <p class="shoppingItemDesc">2 months € 30</p>
+                    <div class="shoppingItemVisible">
+                        <div>
+                            <p class="shoppingItemTitle">Package 1</p>
+                            <p class="shoppingItemDesc">2 months € 30</p>
+                        </div>
+                        <i class="fa-solid fa-circle-xmark"></i>
                     </div>
-                    <i class="fa-solid fa-circle-xmark"></i>
+                    <div class="shoppingItemHidden">
+                        <p class="packIncludedTitle">Included in package</p>
+                        <div class="packIncludedItems">
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                            <a target="_blank" href="https://www.defijobsite.com/">defijobsite.com</a>
+                            <a target="_blank" href="https://www.flutterjobsite.com/">flutterjobsite.com</a>
+                            <a target="_blank" href="https://www.nftjobsite.com/">nftjobsite.com</a>
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                        </div>
+                        <p class="packDescription">
+                            This package is related to IT jobs if you want to hire php developer and javascript
+                            developers.
+                            The packages is targeting audience for the Netherlands
+                        </p>
+                    </div>
+                    <p class="shoppingItemClick">Click to <span>show</span> additional information ></p>
                 </div>
                 <div class="shoppingItem">
-                    <div>
-                        <p class="shoppingItemTitle">Package 1</p>
-                        <p class="shoppingItemDesc">2 months € 30</p>
+                    <div class="shoppingItemVisible">
+                        <div>
+                            <p class="shoppingItemTitle">Package 1</p>
+                            <p class="shoppingItemDesc">2 months € 30</p>
+                        </div>
+                        <i class="fa-solid fa-circle-xmark"></i>
                     </div>
-                    <i class="fa-solid fa-circle-xmark"></i>
+                    <div class="shoppingItemHidden">
+                        <p class="packIncludedTitle">Included in package</p>
+                        <div class="packIncludedItems">
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                            <a target="_blank" href="https://www.defijobsite.com/">defijobsite.com</a>
+                            <a target="_blank" href="https://www.flutterjobsite.com/">flutterjobsite.com</a>
+                            <a target="_blank" href="https://www.nftjobsite.com/">nftjobsite.com</a>
+                            <a target="_blank" href="https://www.jobselectie.nl/">jobselectie.nl</a>
+                        </div>
+                        <p class="packDescription">
+                            This package is related to IT jobs if you want to hire php developer and javascript
+                            developers.
+                            The packages is targeting audience for the Netherlands
+                        </p>
+                    </div>
+                    <p class="shoppingItemClick">Click to <span>show</span> additional information ></p>
                 </div>
             </div>
 
