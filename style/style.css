@@ -1310,6 +1310,7 @@ footer p {
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
     }
+
     .hamburger-inner,
     .hamburger-inner::before,
     .hamburger-inner::after {
@@ -1324,9 +1325,11 @@ footer p {
     .header {
         padding-bottom: 25px;
     }
+
     .hamburger {
         display: block;
     }
+
     .navbarButton {
         display: none;
     }
@@ -1348,24 +1351,30 @@ footer p {
         margin: 0 auto;
         padding-top: 20px;
     }
+
     .mbMenuContainer li {
         width: 100%;
         text-align: center;
         margin-bottom: 70px;
     }
+
     .mbMenuContainer ul {
         display: block;
     }
+
     .navbarMbButton {
         display: block;
     }
+
     .navbarMbButton button {
         font-size: 28px !important;
         padding: 15px 35px !important;
     }
+
     .navbarLink {
         font-size: 28px;
     }
+
     .mbMenuClose {
         display: flex;
         justify-content: end;
@@ -1566,6 +1575,7 @@ footer p {
     height: 180px;
     border: 1px solid rgba(3, 117, 250, 0.45);
     text-align: center;
+    background: white;
 }
 
 .labelItem img {
@@ -1745,17 +1755,6 @@ footer p {
     right: 20px;
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
 /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
@@ -1833,8 +1832,114 @@ footer p {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
 @media (max-width: 430px) {
     .labelFiltersList {
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.dropdown-content img {
+    width: 32px;
+}
+
+.content-search img {
+    width: 20px;
+    opacity: 0.5;
+}
+
+.content-search input {
+    border: none;
+    height: 30px;
+    padding-left: 15px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #f1f1f1;
+    outline: navajowhite;
+    box-sizing: border-box;
+}
+
+.content-search:hover .searchField {
+    background-color: #f1f1f1;
+}
+
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    max-height: 280px;
+    overflow-y: hidden;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+.labelPagination p {
+    cursor: pointer;
+}
+
+.requestForm {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.requestForm form {
+    width: 500px;
+    height: 500px;
+    padding: 40px;
+    margin: 0 auto;
+    position: relative;
+    background: rgba(255, 255, 255, 0.45);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+}
+
+.requestForm form h1 {
+    text-align: center;
+}
+
+.requestForm input {
+    width: 100%;
+    border: 1px solid rgba(3, 117, 250, 0.45);
+    outline: none;
+    height: 50px;
+    background: #FFFFFF;
+    padding-left: 20px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 136.5%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #0375FA;
+    text-align: left;
+}
+
+.requestForm input::placeholder {
+    color: rgba(3, 117, 250, 0.45);
+}
+
+.requestForm button {
+    height: 50px;
+    margin-top: 20px;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+.requestForm input:focus {
+    border: 1px solid rgba(3, 117, 250, 1);
+}
+
+@media (max-width: 490px) {
+    .requestForm form {
+        width: 100%;
+        height: 500px;
     }
 }
