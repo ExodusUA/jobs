@@ -18,33 +18,33 @@
         padding: 0;
         box-sizing: border-box;
     }
-
+    
     body {
         background: #F4F9FF;
     }
-
+    
     .container {
         width: 100%;
         margin: 0 auto;
         max-width: 1100px;
     }
-
+    
     .headerLogotype {
         margin-top: 30px;
         text-align: center;
     }
-
+    
     .mapImage {
         text-align: center;
         width: 1000px;
         margin: 0 auto;
         margin-top: 60px;
     }
-
+    
     .mapImage img {
         width: 100%;
     }
-
+    
     .mapContent {
         position: absolute;
         left: 0;
@@ -53,16 +53,16 @@
         width: 100%;
         height: 100%;
     }
-
+    
     .map {
         position: relative;
     }
-
+    
     .mapTextHeader {
         text-align: center;
         margin-top: 80px;
     }
-
+    
     .mapTextHeader h1 {
         color: #3F2B4F;
         font-weight: 600;
@@ -71,7 +71,7 @@
         letter-spacing: -0.02em;
         color: #3F2B4F;
     }
-
+    
     .mapTextHeader p {
         font-weight: 500;
         font-size: 18px;
@@ -83,7 +83,7 @@
         margin: 0 auto;
         margin-top: 25px;
     }
-
+    
     .mapCountryItem {
         display: flex;
         align-items: center;
@@ -91,23 +91,23 @@
         border-radius: 10px;
         transition: 0.3s;
     }
-
+    
     .mapCountryItem:hover {
         background: rgba(3, 117, 250, 0.59);
         color: white;
     }
-
+    
     .mapCountryItem img {
         max-width: 32px;
         margin-right: 15px;
     }
-
+    
     .mapCountryItem {
         text-decoration: none;
         color: #3F2B4F;
         font-weight: 700;
     }
-
+    
     .mapCountryList {
         display: grid;
         gap: 20px;
@@ -115,7 +115,7 @@
         grid-template-columns: repeat(4, 1fr);
         margin-top: 80px;
     }
-
+    
     footer {
         background: #26323b;
         padding: 25px;
@@ -126,17 +126,17 @@
         font-weight: 700;
         text-align: center;
     }
-
+    
     body {
         overflow-x: hidden;
     }
-
+    
     @media (max-width: 1024px) {
         .mapCountryList {
             column-gap: 20px;
         }
     }
-
+    
     @media (max-width: 768px) {
         .mapCountryList {
             grid-template-columns: repeat(3, 1fr);
@@ -144,34 +144,36 @@
             margin: 0 auto;
             margin-top: 60px;
         }
-
         .mapTextHeader p {
             width: 90%;
             margin: 0 auto;
             margin-top: 25px;
-
         }
     }
-
+    
     @media (max-width: 768px) {
         .mapCountryList {
             grid-template-columns: repeat(2, 1fr);
         }
-
         .mapCountryList {
             padding-bottom: 50px;
         }
-
         footer {
             top: 200px;
         }
+        .mapImage {
+            width: 100% !important;
+        }
+        .map {
+            position: relative;
+            height: 100vh;
+        }
     }
-
+    
     @media (max-width: 430px) {
         .mapTextHeader h1 {
             font-size: 32px;
         }
-
     }
 </style>
 
@@ -197,72 +199,59 @@
             <div class="container">
                 <div class="mapTextHeader">
                     <h1>Aim Higher. Reach Farther. Dream Bigger.</h1>
-                    <p>A better career is out there. We'll help you find it. We're your first step to becoming
-                        everything you want to be.</p>
+                    <p>A better career is out there. We'll help you find it. We're your first step to becoming everything you want to be.</p>
                 </div>
 
                 <div class="mapCountryList">
                     <a href="https://www.happycareersites.com/" class="mapCountryItem">
-                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_up-flag.gif"
-                            alt="Flag">
+                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_up-flag.gif" alt="Flag">
                         <p>Ukraine</p>
                     </a>
                     <a href="https://www.happycareersites.com/" class="mapCountryItem">
-                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_ez-flag.gif"
-                            alt="Flag">
+                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_ez-flag.gif" alt="Flag">
                         <p>Czech Republic</p>
                     </a>
                     <a href="https://www.happycareersites.com/" class="mapCountryItem">
-                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_pl-flag.gif"
-                            alt="Flag">
+                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_pl-flag.gif" alt="Flag">
                         <p>Poland</p>
                     </a>
                     <a href="https://www.happycareersites.com/" class="mapCountryItem">
-                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_nl-flag.gif"
-                            alt="Flag">
+                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_nl-flag.gif" alt="Flag">
                         <p>Netherlands</p>
                     </a>
                     <a href="https://www.happycareersites.com/" class="mapCountryItem">
-                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_up-flag.gif"
-                            alt="Flag">
+                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_up-flag.gif" alt="Flag">
                         <p>Ukraine</p>
                     </a>
                     <a href="https://www.happycareersites.com/" class="mapCountryItem">
-                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_ez-flag.gif"
-                            alt="Flag">
+                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_ez-flag.gif" alt="Flag">
                         <p>Czech Republic</p>
                     </a>
                     <a href="https://www.happycareersites.com/" class="mapCountryItem">
-                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_pl-flag.gif"
-                            alt="Flag">
+                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_pl-flag.gif" alt="Flag">
                         <p>Poland</p>
                     </a>
                     <a href="https://www.happycareersites.com/" class="mapCountryItem">
-                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_nl-flag.gif"
-                            alt="Flag">
+                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_nl-flag.gif" alt="Flag">
                         <p>Netherlands</p>
                     </a>
                     <a href="https://www.happycareersites.com/" class="mapCountryItem">
-                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_up-flag.gif"
-                            alt="Flag">
+                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_up-flag.gif" alt="Flag">
                         <p>Ukraine</p>
                     </a>
                     <a href="https://www.happycareersites.com/" class="mapCountryItem">
-                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_ez-flag.gif"
-                            alt="Flag">
+                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_ez-flag.gif" alt="Flag">
                         <p>Czech Republic</p>
                     </a>
                     <a href="https://www.happycareersites.com/" class="mapCountryItem">
-                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_pl-flag.gif"
-                            alt="Flag">
+                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_pl-flag.gif" alt="Flag">
                         <p>Poland</p>
                     </a>
                     <a href="https://www.happycareersites.com/" class="mapCountryItem">
-                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_nl-flag.gif"
-                            alt="Flag">
+                        <img class="countryImage" src="https://www.worldometers.info/img/flags/small/tn_nl-flag.gif" alt="Flag">
                         <p>Netherlands</p>
                     </a>
-                    
+
                 </div>
             </div>
         </div>
