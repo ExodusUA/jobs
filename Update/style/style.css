@@ -1143,7 +1143,6 @@ footer p {
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
     }
-
     .container {
         width: 90%;
     }
@@ -1155,18 +1154,15 @@ footer p {
         flex-direction: column-reverse;
         flex-wrap: wrap;
     }
-
     .checkoutSelected {
         width: 100%;
         margin: 0 auto;
     }
-
     .checkoutCompany {
         width: 100%;
         margin: 0 auto;
         margin-top: 50px;
     }
-
     .checkoutCompany div {
         width: 100%;
     }
@@ -1176,38 +1172,30 @@ footer p {
     .header {
         height: 70vh;
     }
-
     .infoContent {
         gap: 30px;
     }
-
     .blockImage {
         width: 385px;
         height: 270px;
     }
-
     .statsContainer {
         width: 70%;
     }
-
     .audienceBuble {
         width: 70%;
     }
-
     .recruitmentBuble {
         width: 70%;
         right: -40px;
     }
-
     .networkBuble {
         width: 70%;
     }
-
     .hiringBuble {
         width: 70%;
         right: -40px;
     }
-
     .headerPage {
         height: auto;
     }
@@ -1217,66 +1205,52 @@ footer p {
     .navbarLinks {
         display: none !important;
     }
-
     .menuLoginButtons {
         display: none;
     }
-
     .navbarList>li:last-child {
         display: block !important;
     }
-
     .headerContent {
         flex-direction: column-reverse;
         flex-wrap: wrap;
     }
-
     .headerImage {
         width: 100%;
     }
-
     .header {
         height: auto;
         padding-bottom: 50px;
     }
-
     .headerContent {
         margin-top: 50px;
     }
-
     .headerImage {
         width: 50%;
         margin-bottom: 50px;
     }
-
     .infoContent {
         grid-template-columns: repeat(2, 1fr);
     }
-
     .blockWrapper {
         display: block;
     }
-
     .blockText {
         width: 90%;
     }
-
     .blockSection {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-
     .blockImage {
         width: 100%;
         height: auto;
         margin: 0 auto;
         margin-top: 50px;
     }
-
     .recruitmentBuble {
         top: 0px;
     }
-
     .hiringBuble {
         top: 0px;
     }
@@ -1286,36 +1260,28 @@ footer p {
     .headerContentLeft {
         width: 100%;
     }
-
     .info {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
     .infoContent {
         grid-template-columns: repeat(1, 1fr);
     }
-
     .blockText h1 {
         font-size: 32px;
     }
-
     .stats h1 {
         font-size: 46px;
     }
-
     .statsContainer {
         width: 90%;
     }
-
     .menuLoginButton {
         font-size: 28px;
     }
-
     .menuLoginButton img {
         width: 30px;
     }
-
     .menuLoginButton a {
         justify-content: center;
     }
@@ -1326,30 +1292,24 @@ footer p {
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
     }
-
     .hamburger-inner,
     .hamburger-inner::before,
     .hamburger-inner::after {
         background-color: var(--BlueColor);
     }
-
     .shoppingList {
         gap: 20px;
         grid-template-columns: repeat(1, 1fr);
     }
-
     .header {
         padding-bottom: 25px;
     }
-
     .hamburger {
         display: block;
     }
-
     .navbarButton {
         display: none;
     }
-
     .mbMenu {
         display: block;
         width: 100vw;
@@ -1361,41 +1321,33 @@ footer p {
         transition: 0.7s;
         z-index: 999999999;
     }
-
     .mbMenuContainer {
         width: 90%;
         margin: 0 auto;
         padding-top: 20px;
     }
-
     .mbMenuContainer li {
         width: 100%;
         text-align: center;
         margin-bottom: 70px;
     }
-
     .mbMenuContainer ul {
         display: block;
     }
-
     .navbarMbButton {
         display: block;
     }
-
     .navbarMbButton button {
         font-size: 28px !important;
         padding: 15px 35px !important;
     }
-
     .navbarLink {
         font-size: 28px;
     }
-
     .mbMenuClose {
         display: flex;
         justify-content: end;
     }
-
     .menuVisible {
         left: 0 !important;
     }
@@ -1406,16 +1358,13 @@ footer p {
         display: block;
         text-align: center;
     }
-
     .footerWrapper img {
         margin-bottom: 20px;
     }
-
     .shoppingBlue {
         width: 100%;
         height: 50px;
     }
-
     .shoppingWhite {
         width: 100%;
         margin-top: 20px;
@@ -1426,37 +1375,29 @@ footer p {
     .logotype {
         width: 120px;
     }
-
     .language {
         margin-left: 20px;
     }
-
     .headerImage {
         width: 80%;
     }
-
     .footerWrapper {
         display: block;
         text-align: center;
     }
-
     .footerWrapper img {
         margin-bottom: 20px;
     }
-
     .headerContent h1 {
         font-size: 52px;
         width: 100%;
     }
-
     .info h1 {
         font-size: 30px;
     }
-
     .blockText {
         width: 100%;
     }
-
     .checkoutCompany div {
         grid-template-columns: repeat(1, 1fr);
         gap: 15px;
@@ -1467,7 +1408,6 @@ footer p {
     .statsItem i {
         font-size: 40px;
     }
-
     .statsItemTitle {
         font-size: 42px;
     }
@@ -1477,27 +1417,21 @@ footer p {
     .hiringBuble {
         display: none;
     }
-
     .networkBuble {
         display: none;
     }
-
     .recruitmentBuble {
         display: none;
     }
-
     .audienceBuble {
         display: none;
     }
-
     .networkBuble {
         display: none;
     }
-
     .stats h1 {
         font-size: 36px;
     }
-
     .headerContent h1 {
         font-size: 42px;
         width: 100%;
@@ -1639,23 +1573,18 @@ footer p {
     .landHeader .navbarList {
         flex-wrap: wrap;
     }
-
     .landHeader .navbarList li {
         margin-bottom: 20px;
     }
-
     .landingHeaderBoxes {
         display: block;
     }
-
     .landingHeaderBoxes>div {
         width: 100%;
     }
-
     .colorBox {
         width: 100% !important;
     }
-
     .labelsList {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -1668,7 +1597,6 @@ footer p {
         margin-top: 50px;
         margin-bottom: 35px;
     }
-
     .labelsList {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1680,7 +1608,6 @@ footer p {
     .labelItem {
         height: 140px;
     }
-
     .landHeaderLabels {
         margin-top: 60px;
     }
@@ -1690,24 +1617,19 @@ footer p {
     .landingHeaderBoxes {
         margin-top: 0px;
     }
-
     .labelItem img {
         width: 70%;
     }
-
     .landFooter .container {
         display: block;
         text-align: center;
     }
-
     .landFooter .container img {
         margin-bottom: 20px;
     }
-
     .landBoxTitle {
         font-size: 24px;
     }
-
     .landBoxSubtitle {
         font-size: 14px;
     }
@@ -2130,30 +2052,23 @@ body {
     .labelLink svg {
         width: 15px;
     }
-
     .labelLink p {
         font-size: 12px;
     }
-
     .labelLink {
         bottom: 10px;
     }
-
     .language img {
         width: 20px;
     }
-
     .language {
-        width: auto;
+        width: 100px;
         margin: 0 auto;
         font-size: 28px;
-        justify-content: center;
     }
-
     .languageListItem {
         margin-top: 25px;
     }
-
     .languageList {
         top: 35px;
         left: -30px;
@@ -2168,64 +2083,34 @@ body {
         display: none;
         padding-bottom: 35px;
     }
-
     .languageListItem p {
         font-size: 18px;
     }
-
     .landLabels a {
         margin-right: 20px;
         margin-bottom: 10px;
     }
-
     .landLabels img {
         width: 150px;
         max-height: 40px;
         object-fit: contain;
     }
-
     .landLabels a {
         margin-right: 50px;
         margin: 0 auto;
     }
-
     .landFeatured {
         text-align: center;
     }
-
     .landHeaderTitle {
         font-size: 27px !important;
     }
-
     .contactForm form {
         width: 100%;
         padding-bottom: 20px;
     }
-
     .requestForm form {
         height: auto;
-    }
-
-    .languageListItem {
-        display: block;
-    }
-
-    .languageList {
-        top: 45px;
-        left: 130px;
-        position: absolute;
-        width: 200px;
-        height: auto;
-        margin: 0 auto;
-        left: calc((100% - 200px) /2);
-    }
-}
-
-@media (max-width: 444px) {
-    .landLabels img {
-        width: 100px;
-        max-height: 40px;
-        object-fit: contain;
     }
 }
 
@@ -2279,310 +2164,10 @@ body {
     margin-bottom: 50px;
 }
 
-.landBoxTop {
-    color: #0375FA;
-}
-
-.labelFlag p {
-    color: #3f2b4f;
-    font-size: 14px;
-    margin-left: 30px;
-    position: relative;
-    bottom: 1px;
-}
-
-.landLabels img {
+.labelItem img {
     max-height: 55px;
 }
 
-@media (max-width: 490px) {
-    .languageList {
-        top: 45px;
-    }
-}
-
-
-/* COMING SOON */
-.comingSoon {
-    display: flex;
-    height: 100vh;
-    overflow-y: hidden;
-}
-
-.leftPart {
-    width: 30%;
-    max-width: 450px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 80px;
-    padding-bottom: 60px;
-    height: 100%;
-    text-align: center;
-}
-
-.rightPart {
-    background: #0375FA;
-    height: 100%;
-    width: 100%;
-}
-
-.leftTopControls {
-    display: flex;
-    justify-content: space-between;
-}
-
-.leftTopControls>div {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-.leftTopCountry a {
-    display: flex;
-    align-items: center;
-}
-
-.leftTopLang p {
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.language i {
-    margin-right: 10px;
-    font-size: 18px;
-}
-
-.leftTopCountry img {
-    width: 20px;
-    height: 13px;
-    margin-right: 10px;
-}
-
-.leftTopCountry a {
-    text-decoration: none;
-}
-
-.leftTopControls {
-    width: 240px;
-    margin: 0 auto;
-}
-
-.leftPartComingSoon {
-    position: relative;
-    top: 200px;
-    text-transform: uppercase;
-    text-align: left;
-}
-
-.comingBold {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 74px;
-    line-height: 136.5%;
-
-    letter-spacing: -0.02em;
-    color: #3F2B4F;
-}
-
-.comingRegular {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 66.5%;
-    text-align: center;
-    letter-spacing: -0.02em;
-    color: #3F2B4F;
-    text-align: left;
-
-}
-
-.comingPowered {
-    position: absolute;
-    bottom: 50px;
-    left: 0;
-    right: 0;
-}
-
-.leftPart {
-    position: relative;
-}
-
-.comingPowered a {
-    text-decoration: none;
+.landBoxTop {
     color: #0375FA;
-}
-
-.rightPartContainer {
-    padding-top: 10%;
-    padding-bottom: 10%;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.rightPartContainer h1 {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 136.5%;
-    letter-spacing: -0.02em;
-    color: #FFFFFF;
-}
-
-.textBlock p {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 136.5%;
-    letter-spacing: -0.02em;
-    color: #FFFFFF;
-    margin-top: 20px;
-}
-
-.textBlock {
-    height: 450px;
-    overflow-y: hidden;
-    position: relative;
-}
-
-.readMore {
-    width: 100%;
-    height: 170px;
-    background: linear-gradient(180deg, rgba(3, 117, 250, 0) 0%, rgba(3, 117, 250, 0.75) 20.03%, #0375FA 100%);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 9999;
-}
-
-.readMoreButton {
-    width: 150px;
-    border-radius: 20px;
-    background: white;
-    color: #0375FA;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    cursor: pointer;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 20px;
-}
-
-.readMoreButton:hover .fa-solid {
-    transform: rotate(-90deg);
-}
-
-.readMoreButton p {
-    color: #0375FA;
-    margin-top: 0;
-    font-weight: 600;
-
-}
-
-.readMoreButton i {
-    color: #0375FA;
-    transition: 0.3s;
-}
-
-.textBlockFull {
-    height: 550px;
-    overflow-y: scroll;
-}
-
-/* width */
-.textBlockFull::-webkit-scrollbar {
-    width: 5px;
-}
-
-/* Track */
-.textBlockFull::-webkit-scrollbar-track {
-    background: white;
-}
-
-/* Handle */
-.textBlockFull::-webkit-scrollbar-thumb {
-    background: #3F2B4F;
-}
-
-/* Handle on hover */
-.textBlockFull::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
-.textBlockFull .readMore {
-    background: transparent;
-    height: auto;
-}
-
-.textBlockFull .readMoreButton {
-    display: none;
-}
-
-.textBlock {
-    padding-right: 20px;
-}
-
-
-@media (max-width: 1600px) {
-    .rightPartContainer h1 {
-        font-size: 54px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .comingSoon {
-        display: block;
-        height: auto;
-    }
-    .leftPart {
-        width: 100%;
-        max-width: 100%;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 40px;
-        padding-bottom: 60px;
-        text-align: center;
-    }
-    .leftPartComingSoon {
-        position: relative;
-        top: 0px;
-        text-transform: uppercase;
-        text-align: left;
-        margin-top: 80px;
-        margin-bottom: 80px;
-
-    }
-    .comingBold {
-       text-align: center;
-    }
-    .comingRegular {
-        text-align: center;
-    }
-}
-
-@media (max-width: 490px) {
-    .comingBold {
-        font-weight: 600;
-    }
-    .rightPartContainer h1 {
-        font-size: 34px;
-    }
-}
-
-@media (max-width: 430px) {
-    .rightPartContainer h1 {
-        font-size: 24px;
-    }
-    .textBlock {
-        padding-right: 0px;
-    }
 }
