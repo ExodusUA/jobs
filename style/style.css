@@ -2658,8 +2658,6 @@ body {
     position: absolute;
     left: 0;
     padding-top: 45px;
-    transition: 0.5s;
-    animation-timing-function: ease-in;
     bottom: -100%;
 }
 
@@ -2683,6 +2681,25 @@ body {
     margin-bottom: 20px;
     text-transform: uppercase;
     font-size: 12px;
+    border-bottom: 2px solid #3F2B4F;
+    transition: 0.3s;
+}
+
+.visitButton:hover {
+    background: transparent;
+    color: #3F2B4F;
+}
+
+.fa-solid {
+    transition: 0.3s;
+}
+
+.fa-regular {
+    transition: 0.3s;
+}
+
+.visitButton:hover .fa-solid {
+    color: #3F2B4F;
 }
 
 .visitButton i {
@@ -2700,11 +2717,22 @@ body {
     text-transform: uppercase;
     font-size: 12px;
     margin-right: 0px;
+    border-bottom: 2px solid #0375FA;
+    transition: 0.3s;
+}
+
+.showButton:hover {
+    background: transparent;
+    color: #0375FA;
 }
 
 .showButton i {
     color: white;
     margin-right: 5px;
+}
+
+.showButton:hover .fa-regular {
+    color: #0375FA;
 }
 
 @media (max-width: 490px) {
