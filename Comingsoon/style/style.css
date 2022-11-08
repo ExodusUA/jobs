@@ -27,6 +27,10 @@
 
 /* CART & LANGUAGE HIDE */
 
+.languageList {
+    display: none;
+}
+
 .mbMenu {
     display: none;
 }
@@ -1325,7 +1329,7 @@ footer p {
     .mbMenuContainer li {
         width: 100%;
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 70px;
     }
     .mbMenuContainer ul {
         display: block;
@@ -1432,6 +1436,10 @@ footer p {
         font-size: 42px;
         width: 100%;
     }
+}
+
+.languageList {
+    display: none !important;
 }
 
 
@@ -2338,28 +2346,20 @@ body {
     line-height: 136.5%;
     letter-spacing: -0.02em;
     color: #FFFFFF;
-    margin-bottom: 20px;
-}
-
-.textBlock h3 {
-    margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 .textBlock {
-    height: 440px;
+    height: 450px;
     overflow-y: hidden;
     position: relative;
 }
 
-.textBlock h2 {
-    margin-bottom: 30px;
-}
-
 .readMore {
     width: 100%;
-    height: 100px;
-    /*background: linear-gradient(180deg, rgba(3, 117, 250, 0) 0%, rgba(3, 117, 250, 0.75) 20.03%, #0375FA 100%); */
-    position: relative;
+    height: 170px;
+    background: linear-gradient(180deg, rgba(3, 117, 250, 0) 0%, rgba(3, 117, 250, 0.75) 20.03%, #0375FA 100%);
+    position: absolute;
     bottom: 0;
     left: 0;
     z-index: 9999;
@@ -2402,7 +2402,7 @@ body {
 }
 
 .textBlockFull {
-    height: 500px;
+    height: 550px;
     overflow-y: scroll;
 }
 
@@ -2498,35 +2498,8 @@ body {
 }
 
 .textBlockFull {
-    height: 55vh;
+    height: 60vh;
     overflow-y: auto;
-}
-
-@media (max-height: 901px) {
-    .textBlockFull {
-        height: 80vh;
-    }
-    .textBlock {
-        height: 550px;
-    }
-}
-
-@media (max-height: 830px) {
-    .textBlockFull {
-        height: 55vh;
-    }
-    .textBlock {
-        height: 400px;
-    }
-}
-
-@media (max-height: 660px) {
-    .textBlockFull {
-        height: 45vh;
-    }
-    .textBlock {
-        height: 300px;
-    }
 }
 
 .textBlockFull .readMoreButton {
@@ -2564,168 +2537,4 @@ body {
 .BlackFooter a {
     color: #0375FA;
     text-decoration: none;
-}
-
-.rightPartHidden {
-    display: none;
-}
-
-.comingSoonBlock {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 0;
-    width: 60%;
-    text-align: center;
-    box-sizing: content-box;
-    margin: 0 auto;
-    position: relative;
-    filter: blur(0.5);
-    backdrop-filter: blur(4px);
-    top: 35vh;
-    height: 200px;
-}
-
-.comingSoonBlock h1 {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 84px;
-    line-height: 136.5%;
-    text-align: center;
-    letter-spacing: -0.02em;
-    color: white;
-    text-transform: uppercase;
-}
-
-.comingSoonBlock span {
-    color: white;
-    font-weight: 300;
-}
-
-@media (max-height: 768px) {
-    .comingSoonBlock {
-        width: 80%;
-    }
-}
-
-@media (max-height: 610px) {
-    .comingSoonBlock {
-        width: 80%;
-    }
-    .leftPartComingSoon {
-        top: 20px;
-    }
-}
-
-@media (max-width: 490px) {
-    .comingSoonBlock {
-        top: 0vh;
-    }
-    .comingSoonBlock h1 {
-        font-size: 54px;
-    }
-    .comingSoonBlock {
-        width: 90%;
-    }
-    .comingSoonBlock {
-        height: 400px;
-    }
-}
-
-@media (max-width: 391px) {
-    .comingSoonBlock h1 {
-        font-size: 44px;
-    }
-}
-
-.comingSoonBlock {
-    display: none;
-}
-
-.comingSoonVisible {
-    display: flex;
-}
-
-
-/* NEW STYLES */
-
-.hiddenBlock {
-    width: 100%;
-    height: 100%;
-    background: #CBE3FE;
-    position: absolute;
-    left: 0;
-    padding-top: 45px;
-    transition: 0.5s;
-    animation-timing-function: ease-in;
-    bottom: -100%;
-}
-
-.labelItem {
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.labelItem:hover .hiddenBlock {
-    bottom: 0%;
-}
-
-.visitButton {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 200px;
-    background: #3F2B4F;
-    color: white;
-    cursor: pointer;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-size: 12px;
-}
-
-.visitButton i {
-    color: white;
-    margin-right: 0px;
-}
-
-.showButton {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 200px;
-    background: #0375FA;
-    color: white;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-size: 12px;
-    margin-right: 0px;
-}
-
-.showButton i {
-    color: white;
-    margin-right: 5px;
-}
-
-@media (max-width: 490px) {
-    .visitButton {
-        width: 80%;
-        font-size: 10px;
-    }
-    .showButton {
-        width: 80%;
-        font-size: 10px;
-    }
-    .hiddenBlock {
-        padding-top: 25px;
-    }
-}
-
-@media (max-width: 430px) {
-    .hiddenBlock {
-        padding-top: 10px;
-    }
-    .visitButton {
-        margin-bottom: 10px;
-    }
 }
