@@ -1,0 +1,106 @@
+/* NEW STYLES */
+
+.hiddenBlock {
+    width: 100%;
+    height: 100%;
+    background: #CBE3FE;
+    position: absolute;
+    left: 0;
+    padding-top: 45px;
+    bottom: -100%;
+}
+
+.labelItem {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.labelItem:hover .hiddenBlock {
+    bottom: 0%;
+}
+
+.visitButton {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    background: #3F2B4F;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border-bottom: 2px solid #3F2B4F;
+    transition: 0.3s;
+}
+
+.visitButton:hover {
+    background: transparent;
+    color: #3F2B4F;
+}
+
+.fa-solid {
+    transition: 0.3s;
+}
+
+.fa-regular {
+    transition: 0.3s;
+}
+
+.visitButton:hover .fa-solid {
+    color: #3F2B4F;
+}
+
+.visitButton i {
+    color: white;
+    margin-right: 0px;
+}
+
+.showButton {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    background: #0375FA;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    border-bottom: 2px solid #0375FA;
+    transition: 0.3s;
+}
+
+.showButton:hover {
+    background: transparent;
+    color: #0375FA;
+}
+
+.showButton i {
+    color: white;
+    margin-right: 5px;
+}
+
+.showButton:hover .fa-regular {
+    color: #0375FA;
+}
+
+@media (max-width: 490px) {
+    .visitButton {
+        width: 80%;
+        font-size: 10px;
+    }
+    .showButton {
+        width: 80%;
+        font-size: 10px;
+    }
+    .hiddenBlock {
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 430px) {
+    .hiddenBlock {
+        padding-top: 10px;
+    }
+    .visitButton {
+        margin-bottom: 10px;
+    }
+}

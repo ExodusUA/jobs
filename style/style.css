@@ -2678,9 +2678,7 @@ body {
     background: #3F2B4F;
     color: white;
     cursor: pointer;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-size: 12px;
+    font-size: 15px;
     border-bottom: 2px solid #3F2B4F;
     transition: 0.3s;
 }
@@ -2714,8 +2712,8 @@ body {
     background: #0375FA;
     color: white;
     cursor: pointer;
-    text-transform: uppercase;
-    font-size: 12px;
+    font-size: 14px;
+    margin-bottom: 20px;
     margin-right: 0px;
     border-bottom: 2px solid #0375FA;
     transition: 0.3s;
@@ -2755,5 +2753,69 @@ body {
     }
     .visitButton {
         margin-bottom: 10px;
+    }
+}
+
+
+/* NEW HEADER CODE */
+
+.navbarFirstLine {
+    display: flex;
+    justify-content: flex-end !important;
+}
+
+.menuLoginButton p {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.navbarFirstLine img {
+    width: 15px;
+}
+
+.lineMenu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #CBE3FE;
+    margin-top: 20px;
+}
+
+.lineMenu a {
+    text-decoration: none;
+    color: rgba(63, 43, 79, 0.62);
+    margin-right: 20px;
+    transition: 0.2s;
+}
+
+.lineMenu a:hover {
+    color: #3F2B4F;
+}
+
+@media (max-width: 491px) {
+    .navbarLink {
+        font-size: 22px;
+    }
+    .navbarMbButton button {
+        font-size: 16px !important;
+    }
+    .language {
+        font-size: 22px;
+    }
+    .menuLoginButton p {
+        font-size: 22px;
+        text-transform: unset;
+    }
+    .navbarFirstLine {
+        display: none !important;
+    }
+    .lineMenu {
+        margin-top: 0px;
+    }
+    .lineMenu a {
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+    .mbMenuContainer li {
+        margin-bottom: 30px;
     }
 }
